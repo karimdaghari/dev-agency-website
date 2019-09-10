@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <VHero></VHero>
-    <VClients />
+    <v-hero></v-hero>
+    <v-clients />
   </div>
 </template>
 

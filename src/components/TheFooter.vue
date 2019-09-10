@@ -1,6 +1,6 @@
 <template>
   <section>
-    <TheNewsletter />
+    <the-newsletter />
     <footer class="footer">
       <div class="columns">
         <div class="column">
