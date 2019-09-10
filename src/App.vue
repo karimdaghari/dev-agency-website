@@ -42,4 +42,22 @@ export default class App extends Vue {}
     }
   }
 }
+
+hr {
+  width: 8%;
+  background-color: #f63954;
+}
+
+h1,
+h2,
+h3,
+button,
+a {
+  text-transform: uppercase;
+  font-family: "Open Sans", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h2.subtitle {
+  text-transform: capitalize;
+}
 </style>
