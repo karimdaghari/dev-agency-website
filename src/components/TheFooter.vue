@@ -77,10 +77,10 @@
         </ul>
       </div>
     </div>
-
     <div class="columns">
       <div class="column is-one-fifth"></div>
       <div class="column">
+        <hr />
         <VClients />
       </div>
     </div>
