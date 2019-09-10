@@ -2,17 +2,17 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <p>Hello</p>
-    <Clients />
+    <VClients />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Clients from "@/components/Clients.vue";
+import VClients from "@/components/VClients.vue";
 
 @Component({
   components: {
-    Clients
+    VClients
   }
 })
 export default class Home extends Vue {}

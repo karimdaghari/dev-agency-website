@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <TheHeader />
     <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
@@ -11,11 +11,11 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
-import Header from "@/components/Header.vue";
+import TheHeader from "@/components/TheHeader.vue";
 
 @Component({
   components: {
-    Header
+    TheHeader
   }
 })
 export default class App extends Vue {}
