@@ -6,16 +6,19 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
+    <TheFooter />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import TheHeader from "@/components/TheHeader.vue";
+import TheFooter from "@/components/TheFooter.vue";
 
 @Component({
   components: {
-    TheHeader
+    TheHeader,
+    TheFooter
   }
 })
 export default class App extends Vue {}
