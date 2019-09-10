@@ -64,7 +64,7 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class ContentPicture extends Vue {
+export default class ContentPictureItem extends Vue {
   @Prop(String) readonly imageDirection!: string;
   @Prop(String) readonly imageSrc!: string;
 }
