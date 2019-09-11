@@ -2,6 +2,7 @@
   <div class="home">
     <v-hero></v-hero>
     <v-clients />
+    <content-text-unleash-item />
     <content-text-item>
       <template #title
         >Title test</template
@@ -42,13 +43,15 @@ import VHero from "@/components/VHero.vue";
 import VClients from "@/components/VClients.vue";
 import ContentPictureItem from "@/components/ContentPictureItem.vue";
 import ContentTextItem from "@/components/ContentTextItem.vue";
+import ContentTextUnleashItem from "@/components/ContentTextUnleashItem.vue";
 
 @Component({
   components: {
     VHero,
     VClients,
     ContentPictureItem,
-    ContentTextItem
+    ContentTextItem,
+    ContentTextUnleashItem
   }
 })
 export default class Home extends Vue {}
