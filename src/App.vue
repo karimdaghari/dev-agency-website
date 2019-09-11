@@ -60,4 +60,8 @@ a {
 h2.subtitle {
   text-transform: capitalize;
 }
+
+.subtitle {
+  color: #5a5665;
+}
 </style>
