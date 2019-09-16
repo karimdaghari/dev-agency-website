@@ -5,6 +5,58 @@
       <v-clients />
     </div>
     <content-text-unleash-item />
+
+    <!-- Cavalry section -->
+    <content-text-item>
+      <template #title
+        >We are your cavalry</template
+      >
+      <template #subtitle>
+        Since 2006, the world’s leading brands have turned to X-Team to help
+        them scale their development teams.
+      </template>
+      <template #content>
+        <section class="section">
+          <div class="columns">
+            <!-- Hire devs card  -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img
+                      src="https://x-team.com/images/pics/hire-developers-1.jpg"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <h1 class="title is-4">Hire developers</h1>
+                    <a href="#">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Work for x-team card -->
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="https://x-team.com/images/pics/join-x-team.jpg" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <h1 class="title is-4">Work for x-team</h1>
+                    <a href="#">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </template>
+    </content-text-item>
+
     <content-text-item>
       <template #title
         >Title test</template
