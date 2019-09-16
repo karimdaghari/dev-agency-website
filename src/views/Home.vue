@@ -57,37 +57,63 @@
       </template>
     </content-text-item>
 
+    <!-- Our partners section -->
     <content-text-item>
       <template #title
-        >Title test</template
+        >Our partner benefits</template
       >
       <template #subtitle
-        >Subtitle test</template
+        >We’ve built partnerships with leading brands that have lasted nearly a
+        decade thanks to the level of care & attention we provide.</template
       >
+      <template #content>
+        <div class="columns">
+          <div class="column">
+            <div class="content">
+              <figure class="image is-48x48">
+                <img src="https://x-team.com/images/icons/dedicated-team.svg" />
+              </figure>
+              <h1 class="title is-5">Dedicated Team.</h1>
+              <p>A full-time, scaleable team of trusted developers.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <figure class="image is-48x48">
+                <img src="https://x-team.com/images/icons/daily-updates.svg" />
+              </figure>
+              <h1 class="title is-5">Motivated Developers.</h1>
+              <p>
+                Developers are given perks to help them learn, grow and stay
+                healthy.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <figure class="image is-48x48">
+                <img
+                  src="https://x-team.com/images/icons/account-manager.svg"
+                />
+              </figure>
+              <h1 class="title is-5">Account Manager.</h1>
+              <p>Dedicated account manager, available any time.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <figure class="image is-48x48">
+                <img
+                  src="https://x-team.com/images/icons/flexible-contract.svg"
+                />
+              </figure>
+              <h1 class="title is-5">Flexible Contract.</h1>
+              <p>Flexible contracts with simple monthly billing.</p>
+            </div>
+          </div>
+        </div>
+      </template>
     </content-text-item>
-    <content-picture-item imageDirection="left">
-      <template #title
-        >bla</template
-      >
-      <template #content>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus,
-        pariatur. Accusantium ut fuga dolore provident sunt laborum accusamus,
-        nisi, nihil blanditiis architecto qui non dicta modi perspiciatis,
-        dolorum ullam pariatur.
-      </template>
-    </content-picture-item>
-
-    <content-picture-item imageDirection="right">
-      <template #title
-        >blou</template
-      >
-      <template #content>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus,
-        pariatur. Accusantium ut fuga dolore provident sunt laborum accusamus,
-        nisi, nihil blanditiis architecto qui non dicta modi perspiciatis,
-        dolorum ullam pariatur.
-      </template>
-    </content-picture-item>
   </div>
 </template>
 
