@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <v-hero></v-hero>
-    <v-clients />
+    <div class="has-background-white-ter">
+      <v-clients />
+    </div>
     <content-text-unleash-item />
     <content-text-item>
       <template #title

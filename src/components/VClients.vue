@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-background-white-ter">
+  <section class="section">
     <div class="container">
       <h3 class="has-text-grey">
         Trusted by the world's leading brands since 2006
