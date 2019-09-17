@@ -114,6 +114,21 @@
         </div>
       </template>
     </content-text-item>
+
+    <!-- The right team section -->
+    <content-text-item>
+      <template #title
+        >the right team</template
+      >
+      <template #subtitle
+        >Below, watch Kaplan Inc., one of the largest education companies in the
+        world, explain why they partner with X-Team to build their
+        products.</template
+      >
+      <template #content>
+        <p>Vid here</p>
+      </template>
+    </content-text-item>
   </div>
 </template>
 
